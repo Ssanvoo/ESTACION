@@ -3,8 +3,8 @@
 package Personal;
 
 
-public class Mecanicos {
-    private String nombre;
+public class Mecanicos extends Persona{
+    
     private int telefono;
     private enum Especialidad{
         frenos, hidraulica, electricidad, motor;

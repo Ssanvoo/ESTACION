@@ -2,10 +2,9 @@ package Personal;
 
 import java.time.LocalDate;
 
-public class JefesDeEstacion {
+public class JefesDeEstacion extends Persona{
 
-    private String nombre;
-    private String dni;
+ 
     private LocalDate fecha;
 
     public JefesDeEstacion(String nombre, String dni, LocalDate fecha) {
